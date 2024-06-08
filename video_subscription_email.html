@@ -7,14 +7,14 @@
 			content="initial-scale=1, width=device-width"
 		/>
 
-		<link
-			rel="stylesheet"
-			href="./index.css"
-		/>
 		<!-- <link
 			rel="stylesheet"
-			href="https://email-templates-jade.vercel.app/index.css"
+			href="./index.css"
 		/> -->
+		<link
+			rel="stylesheet"
+			href="https://email-templates-jade.vercel.app/index.css"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
@@ -25,9 +25,35 @@
 			<div class="title-2-cards">
 				<!-- body text goes here  -->
 				<div class="body text">
-					Hello {username}, Thanks for joining at {website_title}!,
-					you are now part of our community and we hope you will
-					enjoy your stay All the best, {website_title}
+					Hello {username}, <br />
+					<br />
+
+					You have been notified by {website_title}that{uploader}has
+					uploaded new video <br />
+					<br />
+
+					Video Title : {video_title} Video Description :
+					{video_description} <br />
+					<br />
+
+					<a href="{video_link}">
+						<img
+							src="{video_thumb}"
+							border="0"
+							height="90"
+							width="120"
+						/>
+						<br />
+						<br />
+						click here to watch this video</a
+					>
+					<br />
+					<br />
+					<br />
+
+					You are notified because you are subscribed to {uploader},
+					you can manage your subscriptions by going to your account
+					and click on manage subscriptions. {website_title}
 				</div>
 			</div>
 			<div class="store-buttons">
