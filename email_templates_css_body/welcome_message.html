@@ -9,21 +9,49 @@
 
 		<!-- <link
 			rel="stylesheet"
-			href="../index.css"
-		/> -->
-		<!-- <link
-			rel="stylesheet"
-			href="https://email-templates-jade.vercel.app/index.css"
+			href="./index.css"
 		/> -->
 		<link
 			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@300;400;700&display=swap"
 		/>
 	</head>
 	<body>
 		<style>
-			.dear-username {
+			.tronixlogo-2-icon {
+				width: 112.5px;
+				position: relative;
+				height: 33px;
+				object-fit: cover;
+			}
+			.base {
+				width: 600px;
+				background-color: #fff;
+				height: 71px;
+				overflow: hidden;
+				flex-shrink: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				padding: 8px;
+				box-sizing: border-box;
+			}
+			.name-welcome-to {
 				margin: 0;
+			}
+			.reality-redefined-this {
+				margin-bottom: 0px;
+			}
+			.reality-redefined-this-is-wh {
+				margin: 0;
+				font-family: inherit;
+				font-size: inherit;
+				padding-left: 21px;
 			}
 			.title {
 				align-self: stretch;
@@ -32,19 +60,15 @@
 			}
 			.header {
 				align-self: stretch;
-				/* overflow: hidden; */
+				overflow: hidden;
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
 				justify-content: flex-start;
-				height: auto;
 			}
 			.title-2-cards {
-				position: absolute;
-				top: 69px;
-				left: 0px;
+				width: 600px;
 				background-color: #fff;
-				width: 601px;
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
@@ -52,6 +76,7 @@
 				padding: 33px 24px;
 				box-sizing: border-box;
 				text-align: left;
+				font-family: Poppins;
 			}
 			.subtitle {
 				align-self: stretch;
@@ -83,20 +108,53 @@
 				gap: 16px;
 			}
 			.store-buttons {
-				position: absolute;
-				top: 448px;
-				left: 0px;
-				background-color: #fff;
 				width: 600px;
+				background-color: #fff;
 				height: 153px;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
-				/* padding: 36px 24px; */
+				padding: 36px 24px;
 				box-sizing: border-box;
 				gap: 24px;
 				color: #7447d7;
+			}
+			.amazonfiretv-1-icon {
+				width: 63px;
+				position: relative;
+				height: 64px;
+				overflow: hidden;
+				flex-shrink: 0;
+			}
+			.apple-tv-logo-1-icon {
+				width: 55px;
+				position: relative;
+				height: 31px;
+				object-fit: cover;
+			}
+			.samsung-smart-tv-logo-2011-1-icon {
+				width: 102.4px;
+				position: relative;
+				height: 37px;
+				object-fit: cover;
+			}
+			.roku-icon-2048x639-2jznrc44-1 {
+				width: 69px;
+				position: relative;
+				height: 22px;
+				object-fit: cover;
+			}
+			.block {
+				width: 600px;
+				background-color: #fff;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 24px;
+				box-sizing: border-box;
+				gap: 12px;
 			}
 			.text1 {
 				align-self: stretch;
@@ -184,13 +242,11 @@
 				gap: 19px;
 			}
 			.one-column-with-contacts {
-				position: absolute;
-				top: 601px;
-				left: 0px;
-				background-color: #201c1c;
 				width: 600px;
+				background-color: #201c1c;
 				height: 240px;
 				overflow: hidden;
+				flex-shrink: 0;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -199,88 +255,97 @@
 				box-sizing: border-box;
 				color: #fff;
 			}
-			.tronixlogo-2-icon {
-				width: 112.5px;
+			.approved {
 				position: relative;
-				height: 33px;
-				object-fit: cover;
-			}
-			.base {
-				position: absolute;
-				top: 0px;
-				left: 0px;
-				background-color: #fff;
-				width: 600px;
-				height: 71px;
-				overflow: hidden;
+				width: 100%;
 				display: flex;
 				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				padding: 8px;
-				box-sizing: border-box;
-			}
-			.approved {
-				width: 100%;
-				position: relative;
-				height: 841px;
+				align-items: flex-start;
+				justify-content: flex-start;
 				text-align: center;
 				font-size: 16px;
 				color: #333;
-				font-family: Poppins;
+				font-family: "IBM Plex Sans";
 			}
 		</style>
 		<div class="approved">
+			<div class="base">
+				<a href="https://tronixnetwork.com/home">
+					<img
+						class="tronixlogo-2-icon"
+						alt=""
+						src="https://email-template-image-hosting.vercel.app/images/tronix_logo2.png"
+					/>
+				</a>
+			</div>
 			<div class="title-2-cards">
-				<!-- body text goes here  -->
-				<div class="body text">
-					Hey [Name], welcome to the Tronix Network!<br />
-					<br />
-
-					[Name], welcome to Ground Zero of the next big bang in
-					entertainment. The Tronix Network isn’t just a platform -
-					it’s an eruption of raw talent, explosive stories, and
-					groundbreaking content that's set to redefine reality.<br />
-					<br />
-
-					We're crafting narratives that resonate, stories that shake
-					the very foundations of what you thought entertainment
-					could be. Searching far and wide, we’re on a mission to
-					uncover new talents, and shine a spotlight on the stars of
-					tomorrow. <br />
-					<br />
-
-					Thanks for being part of this journey from the start. Now
-					strap in! This is going to be one hell of a ride. <br />
-					<br />
-					<strong>Your Tronix Journey Starts Now:</strong> <br />
-					<br />
-
-					<ul>
-						<li>
-							<strong>Reality, Redefined:</strong> This is where
-							reality is reborn, where every episode, every show, and
-							every character becomes a part of something bigger than
-							themselves.
-						</li>
-						<li>
-							<strong> All the Drama: </strong> Tronix Network is the
-							epicenter of the new wave of entertainment. Our content
-							is bold, unscripted, and absolutely unforgettable.
-						</li>
-						<li>
-							<strong>Exclusive Series:</strong> Dive into content
-							you won't find anywhere else. From dramatic and
-							disruptive reality that'll have you on the edge of your
-							seat to emotional stories that’ll have you in your
-							feelings, we've got the lineup to match every vibe.
-						</li>
-						<li>
-							<strong> Unlimited Access: </strong>Subscribe to unlock
-							unlimited access to our exclusive content and watch
-							wherever and whenever you want. aaa
-						</li>
-					</ul>
+				<div class="header">
+					<div class="title">
+						<p class="name-welcome-to">
+							[Name], welcome to Ground Zero of the next big bang in
+							entertainment. The Tronix Network isn’t just a platform
+							- it’s an eruption of raw talent, explosive stories,
+							and groundbreaking content that's set to redefine
+							reality. 
+						</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							We're crafting narratives that resonate, stories that
+							shake the very foundations of what you thought
+							entertainment could be. Searching far and wide, we’re
+							on a mission to uncover new talents, and shine a
+							spotlight on the stars of tomorrow.
+						</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							Thanks for being part of this journey from the start.
+							Now strap in! This is going to be one hell of a ride.
+						</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							Your Tronix Journey Starts Now:
+						</p>
+						<ul class="reality-redefined-this-is-wh">
+							<li class="reality-redefined-this">
+								Reality, Redefined: This is where reality is reborn,
+								where every episode, every show, and every character
+								becomes a part of something bigger than themselves.
+							</li>
+							<li class="reality-redefined-this">
+								All the Drama: Tronix Network is the epicenter of the
+								new wave of entertainment. Our content is bold,
+								unscripted, and absolutely unforgettable.
+							</li>
+							<li class="reality-redefined-this">
+								Exclusive Series: Dive into content you won't find
+								anywhere else. From dramatic and disruptive reality
+								that'll have you on the edge of your seat to
+								emotional stories that’ll have you in your feelings,
+								we've got the lineup to match every vibe. 
+							</li>
+							<li class="reality-redefined-this">
+								Unlimited Access: Subscribe to unlock unlimited
+								access to our exclusive content and watch wherever
+								and whenever you want.
+							</li>
+						</ul>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							[Subscribe & Start Watching]
+						</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">Prepare for impact,</p>
+						<p class="name-welcome-to">The Tronix Team</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							Ready for the drama? Here’s a sneak peak:
+						</p>
+						<p class="name-welcome-to">&nbsp;</p>
+						<p class="name-welcome-to">
+							[TRONIX NETWORK PROMO VIDEO]
+						</p>
+						<p class="name-welcome-to">[Subscribe Now!]</p>
+					</div>
 				</div>
 			</div>
 			<div class="store-buttons">
@@ -311,6 +376,31 @@
 					</a>
 				</div>
 			</div>
+			<div class="block">
+				<img
+					class="amazonfiretv-1-icon"
+					alt=""
+					src="https://email-template-image-hosting.vercel.app/images/fire_tv.png"
+				/>
+
+				<img
+					class="apple-tv-logo-1-icon"
+					alt=""
+					src="https://email-template-image-hosting.vercel.app/images/apple_tv.png"
+				/>
+
+				<img
+					class="samsung-smart-tv-logo-2011-1-icon"
+					alt=""
+					src="https://email-template-image-hosting.vercel.app/images/samsung_tv.png"
+				/>
+
+				<img
+					class="roku-icon-2048x639-2jznrc44-1"
+					alt=""
+					src="https://email-template-image-hosting.vercel.app/images/roku"
+				/>
+			</div>
 			<div class="one-column-with-contacts">
 				<div class="container">
 					<div class="container1">
@@ -320,6 +410,7 @@
 					<div class="cards">
 						<div class="social-icons-transparent">
 							<div class="social-icon-link"></div>
+
 							<a
 								href="https://www.facebook.com/tronixnetwork"
 								target="_blank"
@@ -373,15 +464,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="base">
-				<a href="https://tronixnetwork.com/home">
-					<img
-						class="tronixlogo-2-icon"
-						alt=""
-						src="https://email-template-image-hosting.vercel.app/images/tronix_logo2.png"
-					/>
-				</a>
 			</div>
 		</div>
 	</body>
