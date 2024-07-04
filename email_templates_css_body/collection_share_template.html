@@ -80,9 +80,9 @@
 			}
 			.subtitle {
 				align-self: stretch;
-				position: relative;
+				/* position: relative; */
 				letter-spacing: -0.02em;
-				line-height: 24px;
+				overflow: visible;
 			}
 			.mobile-app-store-badge {
 				width: 135px;
@@ -267,6 +267,10 @@
 				color: #333;
 				font-family: "IBM Plex Sans";
 			}
+
+			.header-download {
+				overflow: visible;
+			}
 		</style>
 		<div class="approved">
 			<div class="base">
@@ -303,9 +307,7 @@
 				</div>
 			</div>
 			<div class="store-buttons">
-				<div class="header">
-					<b class="subtitle">Download now!</b>
-				</div>
+				<b class="subtitle">Download now!</b>
 				<div class="mobile-app-store-badge-parent">
 					<a
 						href="https://apps.apple.com/in/app/tronix/id6468979617"
