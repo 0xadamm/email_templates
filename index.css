@@ -9,6 +9,7 @@
 .header {
 	align-self: stretch;
 	/* overflow: hidden; */
+
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
