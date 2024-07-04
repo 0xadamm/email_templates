@@ -60,7 +60,7 @@
 			}
 			.header {
 				align-self: stretch;
-				overflow: hidden;
+				/* overflow: hidden; */
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
@@ -267,6 +267,14 @@
 				color: #333;
 				font-family: "IBM Plex Sans";
 			}
+			.header-download {
+				align-self: stretch;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 8px;
+			}
 		</style>
 		<div class="approved">
 			<div class="base">
@@ -317,7 +325,7 @@
 				</div>
 			</div>
 			<div class="store-buttons">
-				<div class="header">
+				<div class="header-download">
 					<b class="subtitle">Download now!</b>
 				</div>
 				<div class="mobile-app-store-badge-parent">
