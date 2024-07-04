@@ -9,21 +9,49 @@
 
 		<!-- <link
 			rel="stylesheet"
-			href="../index.css"
-		/> -->
-		<!-- <link
-			rel="stylesheet"
-			href="https://email-templates-jade.vercel.app/index.css"
+			href="./index.css"
 		/> -->
 		<link
 			rel="stylesheet"
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@300;400;700&display=swap"
 		/>
 	</head>
 	<body>
 		<style>
-			.dear-username {
+			.tronixlogo-2-icon {
+				width: 112.5px;
+				position: relative;
+				height: 33px;
+				object-fit: cover;
+			}
+			.base {
+				width: 600px;
+				background-color: #fff;
+				height: 71px;
+				overflow: hidden;
+				flex-shrink: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				padding: 8px;
+				box-sizing: border-box;
+			}
+			.name-welcome-to {
 				margin: 0;
+			}
+			.reality-redefined-this {
+				margin-bottom: 0px;
+			}
+			.reality-redefined-this-is-wh {
+				margin: 0;
+				font-family: inherit;
+				font-size: inherit;
+				padding-left: 21px;
 			}
 			.title {
 				align-self: stretch;
@@ -32,19 +60,15 @@
 			}
 			.header {
 				align-self: stretch;
-				/* overflow: hidden; */
+				overflow: hidden;
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
 				justify-content: flex-start;
-				height: auto;
 			}
 			.title-2-cards {
-				position: absolute;
-				top: 69px;
-				left: 0px;
+				width: 600px;
 				background-color: #fff;
-				width: 601px;
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
@@ -52,6 +76,7 @@
 				padding: 33px 24px;
 				box-sizing: border-box;
 				text-align: left;
+				font-family: Poppins;
 			}
 			.subtitle {
 				align-self: stretch;
@@ -83,20 +108,53 @@
 				gap: 16px;
 			}
 			.store-buttons {
-				position: absolute;
-				top: 448px;
-				left: 0px;
-				background-color: #fff;
 				width: 600px;
+				background-color: #fff;
 				height: 153px;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
 				justify-content: center;
-				/* padding: 36px 24px; */
+				padding: 36px 24px;
 				box-sizing: border-box;
 				gap: 24px;
 				color: #7447d7;
+			}
+			.amazonfiretv-1-icon {
+				width: 63px;
+				position: relative;
+				height: 64px;
+				overflow: hidden;
+				flex-shrink: 0;
+			}
+			.apple-tv-logo-1-icon {
+				width: 55px;
+				position: relative;
+				height: 31px;
+				object-fit: cover;
+			}
+			.samsung-smart-tv-logo-2011-1-icon {
+				width: 102.4px;
+				position: relative;
+				height: 37px;
+				object-fit: cover;
+			}
+			.roku-icon-2048x639-2jznrc44-1 {
+				width: 69px;
+				position: relative;
+				height: 22px;
+				object-fit: cover;
+			}
+			.block {
+				width: 600px;
+				background-color: #fff;
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 24px;
+				box-sizing: border-box;
+				gap: 12px;
 			}
 			.text1 {
 				align-self: stretch;
@@ -184,13 +242,11 @@
 				gap: 19px;
 			}
 			.one-column-with-contacts {
-				position: absolute;
-				top: 601px;
-				left: 0px;
-				background-color: #201c1c;
 				width: 600px;
+				background-color: #201c1c;
 				height: 240px;
 				overflow: hidden;
+				flex-shrink: 0;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -199,79 +255,53 @@
 				box-sizing: border-box;
 				color: #fff;
 			}
-			.tronixlogo-2-icon {
-				width: 112.5px;
+			.approved {
 				position: relative;
-				height: 33px;
-				object-fit: cover;
-			}
-			.base {
-				position: absolute;
-				top: 0px;
-				left: 0px;
-				background-color: #fff;
-				width: 600px;
-				height: 71px;
-				overflow: hidden;
+				width: 100%;
 				display: flex;
 				flex-direction: column;
-				align-items: center;
-				justify-content: center;
-				padding: 8px;
-				box-sizing: border-box;
-			}
-			.approved {
-				width: 100%;
-				position: relative;
-				height: 841px;
+				align-items: flex-start;
+				justify-content: flex-start;
 				text-align: center;
 				font-size: 16px;
 				color: #333;
-				font-family: Poppins;
+				font-family: "IBM Plex Sans";
 			}
 		</style>
 		<div class="approved">
+			<div class="base">
+				<a href="https://tronixnetwork.com/home">
+					<img
+						class="tronixlogo-2-icon"
+						alt=""
+						src="https://email-templates-jade.vercel.app/images/tronix_logo2.png"
+					/>
+				</a>
+			</div>
 			<div class="title-2-cards">
-				<!-- body text goes here  -->
-				<div class="body text">
-					Hello {username},<br />
-					<br />
-
-					Thank you for signing up with {website_title}! You are just
-					one step away from completing your account activation.<br />
-					<br />
-
-					Please click on the link below to activate your account:<br />
-					<a
-						href="{baseurl}/user/activate?av_username={username}&avcode={avcode}"
-						>Activate Account</a
-					>
-					<br />
-					<br />
-					If the above link does not work, you can copy and paste
-					this URL into your browser: <br />
-					<a
-						href="{baseurl}/user/activate?av_username={username}&avcode={avcode}"
-						>{baseurl}/user/activate?av_username={username}&avcode={avcode}</a
-					><br />
-					<br />
-					If you experience any issues, you can also activate your
-					account manually by visiting the:<br />
-					<a href="{baseurl}/user/activate">Manual Activation Page</a
-					><br />
-					<br />
-					Please use the following details for manual activation:<br />
-					<br />
-					Email: {email}<br />
-					Username: {username}<br />
-					Activation Code: {avcode}<br />
-					<br />
-
-					We're excited to have you on board!<br />
-					<br />
-
-					Best regards,<br />
-					{website_title}
+				<div class="header">
+					<div class="title">
+						<p>Hey {username},</p>
+						<p>
+							Welcome to the Tronix Network! You're just one step
+							away from activating your account
+						</p>
+						<p>
+							Activate your account now by clicking the link below:
+							<a href=""> Activate Account </a>
+						</p>
+						<p>
+							If the link doesn’t work, just copy and paste this URL
+							into your browser:
+							{baseurl}/user/activate?av_username={username}&avcode={avcode}
+						</p>
+						<p>
+							Need help? You can also activate your account manually
+							<a href=""> here </a>
+						</p>
+						<p>Here are your details for manual activation:</p>
+						<p>Email: {email}</p>
+					</div>
 				</div>
 			</div>
 			<div class="store-buttons">
@@ -286,7 +316,7 @@
 						<img
 							class="mobile-app-store-badge"
 							alt="apple app store"
-							src="https://email-template-image-hosting.vercel.app/images/apple_appstore.png"
+							src="https://email-templates-jade.vercel.app/images/apple_appstore.png"
 						/>
 					</a>
 
@@ -297,10 +327,35 @@
 						<img
 							class="mobile-app-store-badge1"
 							alt="goole play store"
-							src="https://email-template-image-hosting.vercel.app/images/google_playstore.png"
+							src="https://email-templates-jade.vercel.app/images/google_playstore.png"
 						/>
 					</a>
 				</div>
+			</div>
+			<div class="block">
+				<img
+					class="amazonfiretv-1-icon"
+					alt=""
+					src="https://email-templates-jade.vercel.app/images/fire_tv.png"
+				/>
+
+				<img
+					class="apple-tv-logo-1-icon"
+					alt=""
+					src="https://email-templates-jade.vercel.app/images/apple_tv.png"
+				/>
+
+				<img
+					class="samsung-smart-tv-logo-2011-1-icon"
+					alt=""
+					src="https://email-templates-jade.vercel.app/images/samsung_tv.png"
+				/>
+
+				<img
+					class="roku-icon-2048x639-2jznrc44-1"
+					alt=""
+					src="https://email-templates-jade.vercel.app/images/roku.png"
+				/>
 			</div>
 			<div class="one-column-with-contacts">
 				<div class="container">
@@ -311,6 +366,7 @@
 					<div class="cards">
 						<div class="social-icons-transparent">
 							<div class="social-icon-link"></div>
+
 							<a
 								href="https://www.facebook.com/tronixnetwork"
 								target="_blank"
@@ -318,7 +374,7 @@
 								<img
 									class="social-icons-transparent-child"
 									alt="facebook"
-									src="https://email-template-image-hosting.vercel.app/images/facebook.png"
+									src="https://email-templates-jade.vercel.app/images/facebook.png"
 								/>
 							</a>
 
@@ -329,7 +385,7 @@
 								<img
 									class="social-icons-transparent-item"
 									alt="x"
-									src="https://email-template-image-hosting.vercel.app/images/x.png"
+									src="https://email-templates-jade.vercel.app/images/x.png"
 								/>
 							</a>
 
@@ -340,7 +396,7 @@
 								<img
 									class="hrefhttpsinstagramcom-icon"
 									alt="instagram"
-									src="https://email-template-image-hosting.vercel.app/images/instagram.png"
+									src="https://email-templates-jade.vercel.app/images/instagram.png"
 								/>
 							</a>
 
@@ -351,7 +407,7 @@
 								<img
 									class="hrefhttpsinstagramcom-icon"
 									alt="tiktok"
-									src="https://email-template-image-hosting.vercel.app/images/tiktok.png"
+									src="https://email-templates-jade.vercel.app/images/tiktok.png"
 								/>
 							</a>
 
@@ -364,15 +420,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="base">
-				<a href="https://tronixnetwork.com/home">
-					<img
-						class="tronixlogo-2-icon"
-						alt=""
-						src="https://email-template-image-hosting.vercel.app/images/tronix_logo2.png"
-					/>
-				</a>
 			</div>
 		</div>
 	</body>
