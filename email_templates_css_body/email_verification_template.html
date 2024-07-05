@@ -288,16 +288,24 @@
 						</p>
 						<p>
 							Activate your account now by clicking the link below:
-							<a href=""> Activate Account </a>
+							<a
+								href="{baseurl}/user/activate?av_username={username}&avcode={avcode}"
+							>
+								Activate Account
+							</a>
 						</p>
 						<p>
 							If the link doesn’t work, just copy and paste this URL
 							into your browser:
+							<a
+								href="{baseurl}/user/activate?av_username={username}&avcode={avcode}"
+								>{baseurl}/user/activate?av_username={username}&avcode={avcode}</a
+							>
 							{baseurl}/user/activate?av_username={username}&avcode={avcode}
 						</p>
 						<p>
 							Need help? You can also activate your account manually
-							<a href=""> here </a>
+							<a href="{baseurl}/user/activate"> here </a>
 						</p>
 						<p>Here are your details for manual activation:</p>
 						<p>Email: {email}</p>
